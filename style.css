@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #4d6f93 0%, #a84545a6 100%);
+}
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+  color: #e1e1e1;
+}
+.container {
+  padding: 50px 10px 0 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
